@@ -46,7 +46,7 @@ function Document({
       <body>
         <CssBaseline />
         {children}
-        {/* <Scripts /> */}
+        <Scripts />
         {process.env.NODE_ENV === 'development' && <LiveReload />}
       </body>
     </html>
