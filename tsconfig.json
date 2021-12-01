@@ -5,10 +5,11 @@
     "esModuleInterop": true,
     "jsx": "react-jsx",
     "moduleResolution": "node",
+    "resolveJsonModule": true,
     "target": "ES2019",
     "strict": true,
     "paths": {
-      "~/*": ["./app/*"]
+      "~/*": ["../remix-material-ui/app/*"]
     },
 
     // Remix takes care of building everything in `remix build`.
