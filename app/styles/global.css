@@ -1,0 +1,19 @@
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  text-align: center;
+  color: #ccc;
+  padding-top: 80px;
+}
