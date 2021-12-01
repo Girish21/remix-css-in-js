@@ -61,6 +61,11 @@ export default function Index() {
               </Link>{' '}
               to explore MUI.
             </Typography>
+            <Typography variant='body2'>
+              <Link component={RouterLink as any} to='test' underline='hover'>
+                Test Route
+              </Link>
+            </Typography>
           </Stack>
         </CardContent>
         <CardActions>
